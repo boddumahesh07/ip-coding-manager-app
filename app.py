@@ -25,7 +25,7 @@ modules = {
         },
         {
             "q": "How do you structure a continuous quality assurance (QA) framework for inpatient coding, and what is your threshold for acceptable error rates?",
-            "a": "• **Target Accuracy:** Maintain a strict standard of $\ge 95\\%$ to $98\\%$ net coding accuracy.\n"
+            "a": "• **Target Accuracy:** Maintain a strict standard of 95% to 98% net coding accuracy.\n"
                  "• **Stratified Audits:** Implement random daily sampling alongside targeted audits focusing on high-risk MS-DRGs, surgical sequencing, and CC/MCC captures.\n"
                  "• **Feedback Loops:** Conduct mandatory 1-on-1 root-cause feedback sessions for errors, feeding data back into continuous training modules.",
         },
@@ -33,7 +33,7 @@ modules = {
             "q": "How do you handle severe productivity bottlenecks or backlogs caused by missing physician queries or delayed CDI responses?",
             "a": "• **Escalation Matrix:** Establish a clear protocol with the client-side Clinical Documentation Improvement (CDI) and HIM teams.\n"
                  "• **A/R Risk Mitigation:** Isolate unbilled accounts to protect the Discharged Not Final Billed (DNFB) pipeline.\n"
-                 "• **Proactive Tracking:** Maintain a aging report for pending queries to prevent accounts from stalling revenue realization.",
+                 "• **Proactive Tracking:** Maintain an aging report for pending queries to prevent accounts from stalling revenue realization.",
         },
     ],
     "2. Financial Metrics & Client Management": [
@@ -70,7 +70,7 @@ modules = {
                  "• **Corrective Action Plan (CAP):** Set realistic, incremental milestones over a 30-day period with structured check-ins.",
         },
     ],
-]
+}
 
 # Sidebar Navigation
 st.sidebar.header("Navigation Panel")
@@ -109,3 +109,4 @@ for i, item in enumerate(modules[selected_module]):
 
 # Footer
 st.markdown("*Ready to test yourself? Use this app to practice your manager interview prep right from your mobile device!*")
+
